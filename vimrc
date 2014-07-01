@@ -65,7 +65,6 @@ endif
 set wildignore=*.swp,*.bak,*.pyc,*.class,.svn,.git
 
 " highlight current line
-set cursorcolumn
 set cursorline
 
 " leave content in shell after vim closes
