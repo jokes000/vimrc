@@ -216,3 +216,12 @@ set guifont=PowerlineSymbols\ for\ Powerline
 set nocompatible
 set t_Co=256
 let g:Powerline_symbols = 'fancy'
+
+"================================
+" NerdTree Settings
+"================================
+
+" NERDTree config
+map <F2> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
+autocmd vimenter * NERDTree
