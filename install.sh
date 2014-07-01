@@ -5,6 +5,7 @@ echo "install bundles"
 git clone https://github.com/scrooloose/nerdtree bundle/nerdtree
 git clone https://github.com/Lokaltog/vim-powerline bundle/vim-powerline
 git clone https://github.com/wincent/Command-T bundle/Command-T
+git clone https://github.com/sickill/vim-monokai bundle/vim-monokai
 
 echo "install vimrc"
 ln -s "$HOME/.vim/vimrc" "$HOME/.vimrc"
