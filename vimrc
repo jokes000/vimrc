@@ -226,6 +226,8 @@ map <F2> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 autocmd vimenter * NERDTree
 
+let NERDTreeIgnore=['\.pyc$','\.class$','\.bak$','\.o$']
+
 "================================
 " GitGutter Settings
 "================================
