@@ -208,6 +208,8 @@ endfunc
 "================================
 " Theme Settings
 "================================
+syntax enable
+colorscheme monokai
 
 " powerline config "
 set guifont=PowerlineSymbols\ for\ Powerline
