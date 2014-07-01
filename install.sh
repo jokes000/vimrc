@@ -7,7 +7,7 @@ git clone https://github.com/Lokaltog/vim-powerline bundle/vim-powerline
 git clone https://github.com/wincent/Command-T bundle/Command-T
 
 echo "install vimrc"
-cp vimrc "$HOME/.vimrc"
+ln -s "$HOME/.vim/vimrc" "$HOME/.vimrc"
 
 echo "update font for powerline"
 sudo mkdir /usr/share/fonts/opentype
