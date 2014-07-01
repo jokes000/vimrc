@@ -225,3 +225,9 @@ let g:Powerline_symbols = 'fancy'
 map <F2> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 autocmd vimenter * NERDTree
+
+"================================
+" GitGutter Settings
+"================================
+"
+let g:gitgutter_enabled=1
