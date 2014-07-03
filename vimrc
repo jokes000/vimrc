@@ -232,3 +232,5 @@ let NERDTreeIgnore=['\.pyc$','\.class$','\.bak$','\.o$']
 "================================
 "
 let g:gitgutter_enabled=1
+
+let delimitMate_expand_cr=1
