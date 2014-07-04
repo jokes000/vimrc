@@ -232,5 +232,13 @@ let NERDTreeIgnore=['\.pyc$','\.class$','\.bak$','\.o$']
 "================================
 "
 let g:gitgutter_enabled=1
-
+let g:gitgutter_sign_column_always=1
+"================================
+" delimitMate settings
+"================================
 let delimitMate_expand_cr=1
+
+"================================
+" vim-commentary settings
+"================================
+autocmd FileType python,ruby,shell set commentstring=#\ %s

@@ -9,8 +9,9 @@ git clone https://github.com/vim-scripts/taglist.vim bundle/vim-taglist
 git clone https://github.com/kien/ctrlp.vim bundle/ctrlp.vim
 git clone https://github.com/ervandew/supertab bundle/supertab
 git clone https://github.com/Yggdroot/indentLine bundle/indentLine
-git clone https://github.com/SirVer/ultisnips.git bundle/ultisnips
-git clone https://github.com/Raimondi/delimitMate.git bundle/delimitMate
+git clone https://github.com/SirVer/ultisnips bundle/ultisnips
+git clone https://github.com/Raimondi/delimitMate bundle/delimitMate
+git clone https://github.com/tpope/vim-commentary bundle/vim-commentary
 
 echo "install vimrc"
 ln -s "$HOME/.vim/vimrc" "$HOME/.vimrc"
