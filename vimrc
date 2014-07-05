@@ -187,7 +187,6 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 "================================
 " FileType Settings
 "================================
-
 " auto insert file head "
 autocmd BufNewFile *.sh,*.py exec ":call AutoSetFileHead()"
 function! AutoSetFileHead()
@@ -220,7 +219,6 @@ let g:Powerline_symbols = 'fancy'
 "================================
 " NerdTree Settings
 "================================
-
 " NERDTree config
 map <F2> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
@@ -230,15 +228,26 @@ let NERDTreeIgnore=['\.pyc$','\.class$','\.bak$','\.o$']
 "================================
 " GitGutter Settings
 "================================
-"
 let g:gitgutter_enabled=1
 let g:gitgutter_sign_column_always=1
-"================================
-" delimitMate settings
-"================================
-let delimitMate_expand_cr=1
 
 "================================
 " vim-commentary settings
 "================================
 autocmd FileType python,ruby,shell set commentstring=#\ %s
+
+"================================
+" delimitMate settings
+"================================
+let b:delimitMate_expand_cr=1
+set backspace=2
+
+"================================
+" jedi settings
+"================================
+let g:jedi#goto_assignments_command="<leader>g"
+let g:jedi#goto_definitions_command="<leader>d"
+let g:jedi#completions_command="<S-Space>"
+let g:jedi#rename_command="<leader>r"
+let g:jedi#show_all_signatures="1"
+let g:jedi#completions_enabled=1
