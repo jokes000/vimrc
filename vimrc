@@ -141,9 +141,9 @@ set foldlevel=99
 " indent configuration "
 set smartindent
 set autoindent
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set shiftround
 
@@ -221,8 +221,7 @@ let g:Powerline_symbols = 'fancy'
 "================================
 " NERDTree config
 map <F2> :NERDTreeToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
-
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 let NERDTreeIgnore=['\.pyc$','\.class$','\.bak$','\.o$']
 
 "================================
