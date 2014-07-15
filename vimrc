@@ -250,3 +250,8 @@ let g:jedi#completions_command="<S-Space>"
 let g:jedi#rename_command="<leader>r"
 let g:jedi#show_all_signatures="1"
 let g:jedi#completions_enabled=1
+
+"================================
+" Syntastic settings
+"================================
+let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': ['python', 'ruby', 'json', 'html', 'css', 'javascript'], 'passive_filetypes': ['java'] }
