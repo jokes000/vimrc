@@ -30,7 +30,7 @@ execute pathogen#infect()
 "================================
 
 " font && size
-set guifont=Monaco:h12
+"set guifont=Monaco:h12
 
 " history storage
 set history=2000
@@ -211,7 +211,7 @@ syntax enable
 colorscheme centurion
 
 " powerline config "
-set guifont=PowerlineSymbols\ for\ Powerline
+set guifont=Sauce\ Code\ Powerline
 set nocompatible
 set t_Co=256
 let g:Powerline_symbols = 'fancy'
